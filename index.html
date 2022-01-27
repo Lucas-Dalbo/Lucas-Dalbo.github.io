@@ -6,63 +6,97 @@
         <style>
 
             body {
+                font-size: large;
                 background-color: rgb(243, 223, 162)
             }
-            #foto{
+            #foto {
                 border-radius: 20%;
-            }            
+            }
+            #name {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 4ex;
+                width: 500px;
+                background-color: rgb(187, 68, 48);
+                ;
+            }
+            #about {
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 20px;
+                width: 500px;
+                text-align: justify;
+                background-color: rgb(126, 189, 194);
+                
+            }
+            .titulos {
+                font-weight: 150px;
+                color: rgb(187, 68, 48);
+                
+            }
+            
+            li {
+                height: 25px;
+            }
+            #cabeça {
+               font-size: 68px;
+               letter-spacing: 5px;
+               color: rgb(35, 31, 32);
+            }
+            .corpo {
+                font-size: 20px;
+                                
+            }
 
         </style>
     </head>
     <body>
-        <h1>
-            Portfólio Web
+        <h1 id="cabeça">
+            PORTFÓLIO WEB
         </h1>
-            <p>
+            <p class="corpo"> 
                 <strong>Índice:</strong>
-            </p>
-            <ul>
-                <li><a href="#foto">Sobre mim</a>   
+            </p >
+            <ul class="corpo">
+                <li ><a href="#foto">Sobre mim</a>   
                 </li>
-                <li><a href="#skills">Competências</a>
+                <li ><a href="#skills">Competências</a>
                 </li>
-                <li><a href="#reco">Recomendações</a>
+                <li ><a href="#reco">Recomendações</a>
                 </li>
             </ul>
           
-        <h2>
+        <h2 class="titulos">
             Quem sou eu?
         </h2>    
             <img id="foto" src="Imagens/3x4.JPG" alt="Nesta foto estou usando óculos e beca, dia da minha formatura" width="300">
 
-        <h2>Lucas Dalbo Fernandes</h2>
-            <p>Nasci e cresci em uma cidade no norte do Paraná, por ser uma cidade do interior
+        <h2 id="name">Lucas Dalbo Fernandes</h2>
+            <p id="about">Nasci e cresci em uma cidade no norte do Paraná, por ser uma cidade do interior
                 tive pouco contato com internet quando mais jovem, porém desde prqueno criei vinculos
                 com a tecnologia, graças aos <strong>video-games</strong>!
             </p>
         <br>
         <br>
-        <h2>
+        <h2 class="titulos">
             O que eu consigo fazer?
         </h2>
-            <p id="skills">
+            <p class="corpo" id="skills">
                 Como acabei de começar meus estudos na <em>Trybe</em>, ainda não consigo fazer muitas coisas,
             porém sou capaz de:
-        </p>
-                <ol>
+        </p >
+                <ol class="corpo">
                 <li>Instalar o Ubuntu;</li>
                 <li>Utilizar o básico do básico do terminal;</li>
                 <li>Usar git e GitHub amadoramente;</li>
                 <li>Criar um esqueleto de página web usando HTML;</li>
-                <li><strong>Zerar jogos que podem ser considerados difíceis.</strong><br><em>Ex: God of War no Very Hard sem usar cheese.</em> </li>
+                <li><strong>Falar e escrever em inglês, em nivel intermediário</strong><br><em>Obs: Divisão Diamante no Duolingo </li>
                 </ol>
         <br>
         <br>
-        <h2>
+        <h2 class="titulos">
             Recomendações
         </h2>
-        <p id="reco">Se um dia estiver triste, recomendo esse site:</p>
-        <a href="https://piratelol.ytmnd.com/" target="-blank">Se torne um pirata!</a>
+        <p class="corpo">Me encontre nas redes!</p>
+        <a href="https://www.linkedin.com/feed/" target="-blank">Linkedin!</a>
         
     </body>
 </html>    
