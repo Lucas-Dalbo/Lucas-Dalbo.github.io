@@ -1,0 +1,70 @@
+
+            body {
+                font-size: large;
+                width: 800px;
+                margin-left: 500px;
+                background-color: rgb(243, 223, 162)               
+            }
+            #foto {
+                border-radius: 10%;
+                border: 12px outset rgb(35, 31, 32);
+                width: 250px;
+                padding-right: 500px;
+                background-color:rgb(35, 31, 32);
+                margin-left: 10px;
+                
+            }
+            #name {
+                font-family: "Merriweather";
+                font-size: 28px;
+                text-align: center;
+                border-bottom:5px solid rgb(233, 98, 74) ;
+                background-color: rgb(187, 68, 48);
+                text-shadow: 2px 2px 1px rgb(90, 84, 84);
+            }
+            #about {
+                font-family: "Supermercado One";
+                font-size: 22px;
+                text-align: justify;
+                border-bottom: 15px solid rgb(91, 141, 145);
+                background-color: rgb(126, 189, 194);
+                position: absolute;
+                width: 250px;
+                left: 950px;
+                top: 370px;
+                padding: 10px;
+                padding-left: 25px;
+                padding-right: 25px;
+                border-radius: 10%;
+            }
+            .sobre {
+                background-color: antiquewhite;
+                margin-top: 5px;
+                margin-bottom: 50px;
+                padding: 0em 0em 20px 0em;
+                border-radius: 5%;
+            }
+            .titulos {
+                font-family: "Merriweather";
+                letter-spacing: 3px;
+                color: rgb(187, 68, 48);
+                text-shadow: 2px 2px 1px black;
+                
+            }
+
+            #cabeça {
+               font-family: "Bebas Neue";
+               color: rgb(35, 31, 32);
+               font-size: 42px;
+               letter-spacing: 5px;
+               text-align: center;
+               border-style: solid;
+               border-color: rgb(35, 31, 32);
+               border-width: 5px;
+            }
+            .corpo {
+                font-family: "Rubik";
+                font-size: 18px;
+                text-align: justify;                             
+            }
+         
