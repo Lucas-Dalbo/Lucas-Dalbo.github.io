@@ -1,111 +1,69 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8"> <meta media=all>
-        <title>Lucas Dalbo | Portfólio</title>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas+Neue|Rubik|Merriweather|Supermercado+One">
-        <style>
 
-            body {
-                font-size: large;
-                width: 600px;
-                background-color: rgb(243, 223, 162)
-                
-            }
-            #foto {
-                border-radius: 20%;
-                border: 1px outset black;
-            }
-            #name {
-                font-family: "Merriweather";
-                font-size: 28px;
-                border-left:15px solid rgb(233, 98, 74) ;
-                background-color: rgb(187, 68, 48);
-                text-shadow: 2px 2px 1px rgb(90, 84, 84);
-            }
-            #about {
-                font-family: "Supermercado One";
-                font-size: 20px;
-                text-align: justify;
-                border-left: 15px solid rgb(91, 141, 145);
-                background-color: rgb(126, 189, 194);
-                
-            }
-            .titulos {
-                font-family: "Merriweather";
-                letter-spacing: 3px;
-                color: rgb(187, 68, 48);
-                text-shadow: 2px 2px 1px black;
-                
-            }
+<head>
+    <meta charset="UTF-8">
+    <meta media=all>
+    <title>Lucas Dalbo | Portfólio</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Bebas+Neue|Rubik|Merriweather|Supermercado+One">
+    <link rel="stylesheet" href="style.css" />
+</head>
 
-            #cabeça {
-               font-family: "Bebas Neue";
-               color: rgb(35, 31, 32);
-               font-size: 42px;
-               letter-spacing: 5px;
-               text-align: center;
-               border-style: solid;
-               border-color: rgb(35, 31, 32);
-               border-width: 5px;
-            }
-            .corpo {
-                font-family: "Rubik";
-                font-size: 18px;
-                text-align: justify;                             
-            }
-
-        </style>
-    </head>
-    <body>
+<body>
+    <div class="meio">
         <h1 id="cabeça">
             PORTFÓLIO WEB
         </h1>
-            <p class="corpo"> 
-                <strong>Índice:</strong>
-            </p >
-            <ul class="corpo">
-                <li ><a href="#foto">Sobre mim</a>   
-                </li>
-                <li ><a href="#skills">Competências</a>
-                </li>
-                <li ><a href="#reco">Recomendações</a>
-                </li>
-            </ul>
-          
+        <p class="corpo">
+            <strong>Índice:</strong>
+        </p>
+        <ul class="corpo">
+            <li><a href="#foto">Sobre mim</a>
+            </li>
+            <li><a href="#skills">Competências</a>
+            </li>
+            <li><a href="#reco">Recomendações</a>
+            </li>
+        </ul>
+
         <h2 class="titulos">
             Quem sou eu?
-        </h2>    
-            <img id="foto" src="Imagens/3x4.JPG" alt="Nesta foto estou usando óculos e beca, dia da minha formatura" width="300">
+        </h2>
 
-        <h2 id="name">Lucas Dalbo Fernandes</h2>
+        <div class="sobre">
+            <h2 id="name">Lucas Dalbo Fernandes</h2>
+            <img id="foto" src="Imagens/3x4.JPG" alt="Nesta foto estou usando óculos e beca, dia da minha formatura">
             <p id="about">Nasci e cresci em uma cidade no norte do Paraná, por ser uma cidade do interior
                 tive pouco contato com internet quando mais jovem, porém desde prqueno criei vinculos
                 com a tecnologia, graças aos <strong>video-games</strong>!
             </p>
-        <br>
-        
-        <h2 class="titulos">
-            O que eu consigo fazer?
-        </h2>
+        </div>
+        <div class="bottom">
+            <h2 class="titulos">
+                O que eu consigo fazer?
+            </h2>
             <p class="corpo" id="skills">
                 Como acabei de começar meus estudos na <em>Trybe</em>, ainda não consigo fazer muitas coisas,
-            porém sou capaz de:
-        </p >
-                <ol class="corpo">
+                porém sou capaz de:
+            </p>
+            <ol class="corpo">
                 <li>Instalar o Ubuntu;</li>
                 <li>Utilizar o básico do básico do terminal;</li>
                 <li>Usar git e GitHub amadoramente;</li>
                 <li>Criar um esqueleto de página web usando HTML;</li>
-                <li><strong>Falar e escrever em inglês, em nivel intermediário.</strong><br><em>Obs: Divisão Diamante no Duolingo </li>
-                </ol>
-        <br>
+                <li><strong>Falar e escrever em inglês, em nivel intermediário.</strong><br><em>Obs: Divisão Diamante no
+                        Duolingo </li>
+            </ol>
+            <br>
 
-        <h2 class="titulos" id="reco">
-            Recomendações
-        </h2>
-        <p class="corpo">Me encontre nas redes!</p>
-        <a href="https://www.linkedin.com/feed/" target="-blank">Linkedin!</a>
-        
-    </body>
-</html>    
+            <h2 class="titulos" id="reco">
+                Recomendações
+            </h2>
+            <p class="corpo">Me encontre nas redes!</p>
+            <a href="https://www.linkedin.com/feed/" target="-blank">Linkedin!</a>
+        </div>
+    </div>
+</body>
+
+</html>
